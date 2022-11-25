@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.fields input[type="text"] {
+  height: 2rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.fields button {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  background-color: #ebebeb;
+  padding: 1rem;
+  border-radius: 3px;
+}

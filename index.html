@@ -2,17 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <title>Hello World!</title>
+    <title>Fetch GitHub Users</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://js.bugfender.com/bugfender-v2.js"></script>
   </head>
   <body>
-    
-    <input type="text" placeholder="Enter user name" id="uname" />
-    <button id="fetch-action">Fetch</button>
-
-    <p id="users"></p>
-
+    <div class="container">
+      <h1>Fetch GitHub User Details</h1>
+      <div class="fields">
+        <input type="text" placeholder="Enter user name" id="uname" />
+        <button id="fetch-action">Fetch</button>
+      </div>
+      <p id="users" class="result">The result will appear here!</p>
+    </div>
     <script src="renderer.js"></script>
   </body>
 </html>
