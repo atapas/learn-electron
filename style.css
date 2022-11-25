@@ -6,6 +6,10 @@
   align-content: center;
 }
 
+.fields {
+  margin-bottom: 5px;
+}
+
 .fields input[type="text"] {
   height: 2rem;
   width: 15rem;
@@ -23,4 +27,16 @@
   background-color: #ebebeb;
   padding: 1rem;
   border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.result img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
