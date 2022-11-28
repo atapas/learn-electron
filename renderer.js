@@ -1,6 +1,6 @@
 
 Bugfender.init({
-  appKey: 'VocUSyztliDe9H98ZowwQEoOfqObXfRR',
+  appKey: '<YOUR_API_KEY>',
 })
 
 const fetchUser = () => {
